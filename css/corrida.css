@@ -1,0 +1,20 @@
+
+
+
+#player{
+  background-image: url('WhatsApp Image 2026-01-17 at 17.55.52 (2).jpeg');
+  background-size: cover;
+  
+  z-index: 1;
+}
+.car{
+  background-image: url('WhatsApp Image 2026-01-17 at 17.55.52 (1).jpeg');
+  background-size: cover;
+  
+}
+.yellow{
+  background-image: url('WhatsApp Image 2026-01-17 at 17.55.52.jpeg');
+  background-size: cover;
+  
+}
+  

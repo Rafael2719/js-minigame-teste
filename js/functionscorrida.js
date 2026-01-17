@@ -9,22 +9,22 @@ btn_botton.onclick = () => {direction = 40};
 btn_start.onclick = startGame;
 btn_end.onclick = endGame;
 document.body.onkeydown = function (e) {
-  if(e.which >= 37 && e.which <=40){ // Teclas esquerda e direita
+  if(e.which >= 37 && e.which <=40){ // Teclas direcionais
     direction = e.which;
-  } else if(e.which == 32){ // espaço
+  } else if(e.which == 32){ // Barra de espaço
     startGame();
-  } else if(e.which == 19){ // Botão do pause
+  } else if(e.which == 19){ // Botão de pause
     endGame();
   }
-};
+}
 
-//Inicia o timer do jogo e começa a função start
+// (Re)Inicia o timer do jogo e chama a função start()
 function startGame(){
   if(timer != null) endGame();
   Array.from(field.children).forEach(function(p){p.remove();});
   time = 500;
   timer = setInterval(loop, time);
-  start(); 
+  start(); // Tem que ser criada no sou próprio Javascript
 }
 
 function endGame(){
@@ -49,9 +49,7 @@ function colision(objA, objB){
   let bLeft = getPosition(objB, "left");
   let bTop = getPosition(objB, "top");
   
-  
-  let overlap = (aLeft < bLeft + 60 && aLeft + 60 > bLeft && aTop < bTop + 60 && aTop + 60 > bTop);
-  return overlap;
+  return (aLeft == bLeft && aTop == bTop)
 }
 
 function getPosition(obj, direction){  

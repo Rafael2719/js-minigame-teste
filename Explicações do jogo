@@ -1,0 +1,49 @@
+PORTUGUÊS >>
+17/01/26, Hoje eu termino a primeira versão da atividade do jogo, no entanto, há alguns bugs no jogo de corrida, pois chegando em 50 ~ 55 
+pontos o jogo buga e perde automaticamente, vou tentar resolver isso nas versões futuras mas ta bem dificil agora.
+
+O jogo possui apenas 3 botões, start, left e right, up e down foram desativados
+
+o jogo tem o carro azul, o player que desvia da esquerda há direita
+o carro vermelho, que se move em uma velocidade normal
+e o carro amarelo que é 1.2x mais rapido que o vermelho
+
+o jogo da cobrinha está bugado por algum motivo que eu não consegui saber, mas acho que deve ter sido algum css que eu alterei sem querer
+
+botei umas imagens aleatorias para os carros, achei que ficou legal, tentei ate tirar o fundo branco mas acho que o vs code não reconhece
+que a imagem esta sem fundo e fica preto
+
+alem disso, a cada ponto feito o jogo acelera em 1.050x, tornando mais dificil desviar dos carros :>
+
+a base do jogo, alem do jogo da cobrinha foi feita pelo meu professor de programação web, mas eu não sei como deixar os devidos creditos
+perdão por isso professor se estiver lendo isso :<
+
+tive ajuda de alguns canais no youtube para aprender a logica de js, mas eu nao me lembro quais foram, se eu lembrar eu coloco aqui quando voltar no codigo
+
+acho que isso é tudo
+
+ENGLISH >>
+01/17/26, Today I finish the first version of the game activity, however, there are some bugs in the racing game, as reaching 50 ~ 55
+points the game bugs and loses automatically, I will try to solve this in future versions but it's quite difficult now.       
+
+The game has only 3 buttons, start, left and right, up and down were disabled
+
+the game has the blue car, the player who dodges from left to right
+the red car, which moves at a normal speed
+and the yellow car which is 1.2x faster than the red car
+
+the snake game is bugged for some reason I couldn't find out, but I think it must have been some css that I accidentally changed
+
+I put some random images for the cars, I thought it was cool, I even tried to remove the white background but I think vs code does not recognize
+that the image is backgroundless and it stays black.
+In addition, for each point made the game speeds up by 1.050x, making it more difficult to dodge the cars :>
+the base of the game, besides the snake game was made by my web programming teacher, but I don't know how to give the due credits
+sorry for that professor if you are reading this :<
+
+I had help from some youtube channels to learn the logic of js, but I don't remember which ones, if I remember I put it here when I return to the code
+
+I think that's all
+
+
+
+
